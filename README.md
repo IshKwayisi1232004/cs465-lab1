@@ -3,10 +3,10 @@
 ---
 
 - Your Name: Ishmael Kwayisi
-- GitHub Username: Your GitHub Username
-- Repository URL: https://
+- GitHub Username: IshKwayisi1232004
+- Repository URL: https://github.com/IshKwayisi1232004/cs465-lab1.git
 - Date Submitted: YYYY-MM-DD
-- Collaborators: List any collaborators here (if none, write "None")
+- Collaborators: Professor Charles Palmer
 - Comments: Any comments you have for the instructor about the assignment.
 
 ---
