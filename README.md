@@ -2,7 +2,7 @@
 
 ---
 
-- Your Name: Your Name
+- Your Name: Ishmael Kwayisi
 - GitHub Username: Your GitHub Username
 - Repository URL: https://
 - Date Submitted: YYYY-MM-DD
