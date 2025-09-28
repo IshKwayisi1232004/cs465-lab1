@@ -6,8 +6,12 @@
     font-family: sans-serif;
 }
 
+.workwithusprompt{
+    background-color: rgb(28, 35, 38);
+}
+
 .excellence{
-    background-color: rgb(32, 44, 65);
+    background-color: rgb(28, 35, 38);
     height: 600px;
 }
 
@@ -33,7 +37,7 @@
 }
 
 .digital{
-    background-color: rgb(32, 44, 65);
+    background-color: rgb(28, 35, 38);
     height: 600px;
 }
 
@@ -59,7 +63,7 @@
 }
 
 .collab{
-    background-color: rgb(32, 44, 65);
+    background-color: rgb(28, 35, 38);
     height: 600px;
 }
 
@@ -85,7 +89,7 @@
 }
 
 .impact{
-    background-color: rgb(32, 44, 65);
+    background-color: rgb(28, 35, 38);
     height: 600px;
 }
 
@@ -111,7 +115,7 @@
 }
 
 .create{
-    background-color: rgb(32, 44, 65);
+    background-color: rgb(28, 35, 38);
     height: 600px;
 }
 
@@ -130,14 +134,14 @@
     float: right;
     position: relative;
     right: 150px;
-    bottom: 30px;
+    bottom: 350px;
     margin-left: 15px;
     width: 640px;
     height: 360px;
 }
 
 .policy{
-    background-color: rgb(32, 44, 65);
+    background-color: rgb(28, 35, 38);
     height: 600px;
 }
 
@@ -160,4 +164,16 @@
     margin-left: 15px;
     width: 640px;
     height: 360px;
+}
+
+
+.socialmedia .expand button{
+    width: 200px;
+    height: 100px;
+}
+
+.socialmedia button{
+    width: 150px;
+    height: 100px;
+    
 }
