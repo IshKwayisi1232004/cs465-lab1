@@ -1,1 +1,8 @@
 /* CS465 Lab1 style file */
+.topnav{
+    display: flex;
+    gap: 200px; /* spaces the links */
+    align-items: center;
+    font-family: sans-serif;
+}
+
