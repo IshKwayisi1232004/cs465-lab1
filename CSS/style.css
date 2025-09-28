@@ -191,6 +191,11 @@
     color:rgb(119, 175, 187);
 }
 
+.socialmedia .expand button:hover{
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
 .socialmedia button{
     margin: 0;
     top: 50%;
@@ -204,6 +209,11 @@
     background-color: rgb(19, 25, 27);
 }
 
+.socialmedia button:hover{
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
 .socialmedia img{
     flex-wrap: wrap;
     width: 50px;
@@ -213,7 +223,7 @@
 .community{
     background-color: rgb(28, 35, 38);    
     font-family: sans-serif;
-    height: 250px;
+    height: 220px;
 }
 
 .community .header{
@@ -269,4 +279,15 @@
     background-color: rgb(255, 255, 255); 
     margin-top: 5px;
     position: relative;
+}
+
+footer{
+    background-color: rgb(19, 25, 27);
+}
+
+footer .links .menu{
+    text-align: center;
+    position: relative;
+    left: 600px;
+    width: 350px;
 }
