@@ -48,6 +48,16 @@
     width: 400px;
 }
 
+.digital img{
+    float: right;
+    position: relative;
+    right: 150px;
+    bottom: 210px;
+    margin-left: 15px;
+    width: 640px;
+    height: 360px;
+}
+
 .collab{
     background-color: rgb(32, 44, 65);
     height: 600px;
@@ -62,6 +72,16 @@
     top: 150px;
     left: 150px;
     width: 400px;
+}
+
+.collab img{
+    float: right;
+    position: relative;
+    right: 150px;
+    bottom: 210px;
+    margin-left: 15px;
+    width: 640px;
+    height: 360px;
 }
 
 .impact{
@@ -80,6 +100,16 @@
     width: 400px;
 }
 
+.impact img{
+    float: right;
+    position: relative;
+    right: 150px;
+    bottom: 210px;
+    margin-left: 15px;
+    width: 640px;
+    height: 360px;
+}
+
 .create{
     background-color: rgb(32, 44, 65);
     height: 600px;
@@ -91,9 +121,19 @@
     color:rgb(255, 255, 255);
     text-align: center;
     position: relative;
-    top: 150px;
+    top: 75px;
     left: 150px;
     width: 400px;
+}
+
+.create img{
+    float: right;
+    position: relative;
+    right: 150px;
+    bottom: 30px;
+    margin-left: 15px;
+    width: 640px;
+    height: 360px;
 }
 
 .policy{
@@ -107,7 +147,17 @@
     color:rgb(255, 255, 255);
     text-align: center;
     position: relative;
-    top: 150px;
+    top: 75px;
     left: 150px;
     width: 400px;
+}
+
+.policy img{
+    float: right;
+    position: relative;
+    right: 150px;
+    bottom: 325px;
+    margin-left: 15px;
+    width: 640px;
+    height: 360px;
 }
