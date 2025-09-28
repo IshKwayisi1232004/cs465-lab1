@@ -179,8 +179,11 @@
 .socialmedia .expand button{
     margin: 0;
     top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(1000%);
+    left: 300px;
+    top: 100px;
+    position: relative;
+    -ms-transform: translateY(10%);
+    transform: translateY(-50%);
     font-family: sans-serif;
     border-color: aqua;
     width: 200px;
