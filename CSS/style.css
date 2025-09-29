@@ -1,10 +1,21 @@
 /* CS465 Lab1 style file */
 .topnav{
     display: flex;
-    gap: 200px; /* spaces the links */
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    font-family: sans-serif;
     background-color: rgb(28, 35, 38);
+}
+
+.topnav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.topnav li{
+    margin-right: 20px;
 }
 
 .topnav a{
@@ -24,10 +35,9 @@
 }
 
 .workwithusprompt{
-    background-color: rgb(28, 35, 38);
     font-size: 30px;
     color: rgb(255, 255, 255);
-    height: 800px;
+    height: 600px;
     text-align: center;
 }
 
