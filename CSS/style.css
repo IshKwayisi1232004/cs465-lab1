@@ -49,12 +49,14 @@
     color:rgb(28, 35, 38)
 }
 
-.excellence{
+
+.section{
+    /* display: flex; */
     background-color: rgb(28, 35, 38);
     height: 600px;
 }
 
-.excellence .text{
+.section .text{
     font-family: sans-serif;
     font-size: 25px;
     color:rgb(255, 255, 255);
@@ -65,7 +67,32 @@
     width: 400px;
 }
 
-.excellence img{
+.column1 .text{
+    font-family: sans-serif;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+}
+
+.column1 .text h4 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.namecredit {
+    font-family: sans-serif;
+    font-size: 17px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+
+}
+
+
+.section img{
     float: right;
     position: relative;
     right: 150px;
@@ -75,146 +102,42 @@
     height: 360px;
 }
 
-.digital{
+.flex-container{
+    display: flex;
+    max-width: 1100px;
+    align-items: flex-start;
+    padding: 55px;
+}
+
+.black-background {
+    display: flex;
     background-color: rgb(28, 35, 38);
-    height: 600px;
+    justify-content: center;
 }
 
-.digital .text{
-    font-family: sans-serif;
-    font-size: 25px;
-    color:rgb(255, 255, 255);
-    text-align: center;
-    position: relative;
-    top: 150px;
-    left: 150px;
-    width: 400px;
+.column1{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
 }
 
-.digital img{
-    float: right;
-    position: relative;
-    right: 150px;
-    bottom: 210px;
-    margin-left: 15px;
-    width: 640px;
-    height: 360px;
+.column2{
+    display: flex;
+    justify-content: flex-end;
+    flex: 3;
 }
 
-.collab{
-    background-color: rgb(28, 35, 38);
-    height: 600px;
-}
-
-.collab .text{
-    font-family: sans-serif;
-    font-size: 25px;
-    color:rgb(255, 255, 255);
-    text-align: center;
-    position: relative;
-    top: 150px;
-    left: 150px;
-    width: 400px;
-}
-
-.collab img{
-    float: right;
-    position: relative;
-    right: 150px;
-    bottom: 210px;
-    margin-left: 15px;
-    width: 640px;
-    height: 360px;
-}
-
-.impact{
-    background-color: rgb(28, 35, 38);
-    height: 600px;
-}
-
-.impact .text{
-    font-family: sans-serif;
-    font-size: 25px;
-    color:rgb(255, 255, 255);
-    text-align: center;
-    position: relative;
-    top: 150px;
-    left: 150px;
-    width: 400px;
-}
-
-.impact img{
-    float: right;
-    position: relative;
-    right: 150px;
-    bottom: 210px;
-    margin-left: 15px;
-    width: 640px;
-    height: 360px;
-}
-
-.create{
-    background-color: rgb(28, 35, 38);
-    height: 600px;
-}
-
-.create .text{
-    font-family: sans-serif;
-    font-size: 25px;
-    color:rgb(255, 255, 255);
-    text-align: center;
-    position: relative;
-    top: 75px;
-    left: 150px;
-    width: 400px;
-}
-
-.create img{
-    float: right;
-    position: relative;
-    right: 150px;
-    bottom: 350px;
-    margin-left: 15px;
-    width: 640px;
-    height: 360px;
-}
-
-.policy{
-    background-color: rgb(28, 35, 38);
-    height: 600px;
-}
-
-.policy .text{
-    font-family: sans-serif;
-    font-size: 25px;
-    color:rgb(255, 255, 255);
-    text-align: center;
-    position: relative;
-    top: 75px;
-    left: 150px;
-    width: 400px;
-}
-
-.policy img{
-    float: right;
-    position: relative;
-    right: 150px;
-    bottom: 325px;
-    margin-left: 15px;
-    width: 640px;
-    height: 360px;
-}
 
 .socialmedia{
     background-color: rgb(19, 25, 27);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -25px;
 }
 
-.socialmedia .expand, .icons{
-    display:inline-block;
 
-    vertical-align: top;
-}
-
+/* 
 .socialmedia .expand button{
     margin: 0;
     top: 50%;
@@ -228,25 +151,15 @@
     width: 250px;
     height: 100px;
     color:rgb(119, 175, 187);
-}
+} */
 
-.socialmedia .expand button:hover{
-    color: rgb(255, 255, 255);
-    border-color: rgb(255, 255, 255);
-}
 
-.socialmedia button{
-    margin: 0;
-    top: 50%;
-    position: relative;
-    left: 500px;
-    -ms-transform: translateY(10%);
-    transform: translateY(-50%);
+ .socialmedia button{
     width: 100px;
     height: 100px;
     border-color: rgb(119, 175, 187);
     background-color: rgb(19, 25, 27);
-}
+} 
 
 .socialmedia button:hover{
     color: rgb(255, 255, 255);
@@ -370,47 +283,46 @@
     align-content: center;
 }
 
-.learn a{
+.OurVisionandMission3 .learn{
+    
+}
+
+.OurVisionandMission3 .learn a{
     color:rgb(255, 255, 255);
     font-family: sans-serif;
-    text-align: center;
-    position: relative;
-    left: 700px;
-    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+
 }
+
+
 
 footer{
     background-color: rgb(19, 25, 27);
     color: rgb(119, 175, 187);
 }
 
-footer .links .menu{
-    text-align: center;
-    position: relative;
-    left: 600px;
-    width: 350px;
+footer .menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer button{
-    margin: 0;
-    top: 50%;
-    position: relative;
-    left: 500px;
-    -ms-transform: translateY(10%);
-    transform: translateY(-50%);
-    width: 100px;
-    height: 100px;
     border-color: rgb(119, 175, 187);
     background-color: rgb(19, 25, 27);
 }
 
-footer .links .social img{
+/* footer .socialmedia img{
     flex-wrap: wrap;
     width: 50px;
     height: 50px;
 }
 
-footer .links .social button{
+footer  .socialmedia button{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
@@ -419,9 +331,16 @@ footer .links .social button{
     margin: 0 auto;
 }
 
-footer .links .social button:hover{
+footer .socialmedia button:hover{
     color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
+} */
+
+footer .address{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
 }
 
 footer .address a{
@@ -434,4 +353,11 @@ footer .address a:hover{
 
 footer .copywrite{
     text-align: center;
+}
+
+
+.container{
+    max-width: 900px;
+    margin:0;
+    padding:30px;
 }
