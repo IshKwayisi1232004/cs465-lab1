@@ -4,6 +4,12 @@
     gap: 200px; /* spaces the links */
     align-items: center;
     font-family: sans-serif;
+    background-color: rgb(28, 35, 38);
+}
+
+.gamesinfo {
+    height: 900px;
+    color: rgb(255, 255, 255);
 }
 
 .workwithusprompt{
