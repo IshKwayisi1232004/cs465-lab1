@@ -281,6 +281,65 @@
     position: relative;
 }
 
+.OurVisionandMission1 {
+    height: 600px;
+}
+
+.OurVisionandMission1 img{
+    display:block;
+    margin: 0 auto;
+    width: 50px;
+    align-content: center;
+}
+
+.OurVisionandMission1 .mission .text{
+    font-family: sans-serif;
+    font-size: 25px;
+    color:rgb(119, 175, 187);
+    width: 400px;
+    margin: 0 auto; /* centers the block itself */
+    text-align: center;
+}
+
+.OurVisionandMission2 {
+    height: 600px;
+}
+
+.OurVisionandMission2 img{
+    display:block;
+    margin: 0 auto;
+    width: 50px;
+    align-content: center;
+}
+
+.OurVisionandMission2 .mission .text{
+    font-family: sans-serif;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+}
+
+.OurVisionandMission3 {
+    height: 600px;
+}
+
+.OurVisionandMission3 img{
+    display:block;
+    margin: 0 auto;
+    width: 50px;
+    align-content: center;
+}
+
+.learn a{
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    left: 700px;
+    width: 350px;
+}
+
 footer{
     background-color: rgb(19, 25, 27);
     color: rgb(119, 175, 187);
@@ -310,4 +369,30 @@ footer .links .social img{
     flex-wrap: wrap;
     width: 50px;
     height: 50px;
+}
+
+footer .links .social button{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+footer .links .social button:hover{
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+footer .address a{
+    color: rgb(119, 175, 187);
+}
+
+footer .address a:hover{
+    color: rgb(255, 255, 255);
+}
+
+footer .copywrite{
+    text-align: center;
 }
